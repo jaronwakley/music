@@ -1,0 +1,30 @@
+body, html {
+  height: 100%;
+}
+
+
+.bg {
+  /* The image used */
+  background-image: url("http://explorenumberpatterns.com/music/instruments.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg h1 {
+  color: white;
+  position: relative;
+  top: 90%; 
+  transform: translateY(-90%);
+  -webkit-transform: translateY(-90%);
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
